@@ -9,6 +9,6 @@ fun feedFish(){
     print(" $day  day fish eats $feed " )
 }
 fun randomDay():String{
-    var week= listOf("sunday","amaonday","tuesday","thursday","friday","saturday")
+    var week= listOf("sunday","monday","tuesday","thursday","friday","saturday")
     return week[Random().nextInt(7)]
 }
