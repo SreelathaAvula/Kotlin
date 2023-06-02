@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
 
 }
 fun shouldChangeWater(dirty: Int =50,temp :Int=50){
-    if(dirty<20 || temp<35 && temp>24) {
+    if(dirty<20 || temp in 25..34) {
         println("no need to change water")
     }
     else{
